@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  background-color: #FDB927;
+  background-size: 400% 400%;
+  animation: gradientAnimation 4s ease infinite;
+  font-family: "Montserrat", serif;
+  color: #f0f8ff;
+  cursor: default;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* Permite usar flexbox para alinear contenido */
+}
+
+/* El contenido principal debe empujar el footer hacia abajo */
+main {
+  margin-top: 90px;
+
+  flex: 1; /* Se expande para ocupar el espacio restante */
+}
+
+h1 {
+  text-align: center;
+  color: #552583;
+  font-size: 30px;
+  margin: 0;
+  /*
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 0 10px rgba(255, 255, 255, 0.8);
+    animation: textGlow 3s infinite ease-in-out;
+    */
+}
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #552583;
+}
+section{
+    text-align: center;
+  background-color: #f0f8ff;
+  border-radius: 15px;
+  color: #552583;
+  padding: 25px;
+  width: 65%;
+  margin: 0 auto; /* Esto centra el elemento horizontalmente */
+}
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

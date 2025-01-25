@@ -1,0 +1,91 @@
+footer {
+  position: relative; 
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  text-decoration: none;
+  display: flex;
+  margin-top: 30px;
+}
+footer img {
+  float: left;
+  margin-left: 40px;
+  width: 10%;
+}
+.div-info {
+  margin-top: 30px;
+  width: 600px;
+  height: fit-content;
+}
+.div-info img {
+  margin-top: -5px;
+  margin-right: 10px;
+  width: 30px;
+}
+.div-redes {
+  margin: auto 0 auto auto;
+}
+.redes {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  margin-right: 20px;
+}
+.redes li {
+  list-style: none;
+  float: left;
+  margin-left: 10px;
+}
+.redes li a {
+  display: block;
+  background-image: url(https://www.cariverplate.com.ar/css/img/ico-redes-3.png?t=1);
+  width: 60px;
+  height: 60px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.redes li.fb a:hover {
+  background-position: 0 -60px;
+}
+.redes li.tik a {
+  width: 60px;
+  background-position: -414px 0;
+}
+.redes li.tik a:hover {
+  background-position: -414px -60px;
+}
+.redes li.gp a {
+  background-position: -69px 0;
+}
+.redes li.gp a:hover {
+  background-position: -69px -60px;
+}
+.redes li.tw a {
+  background-position: -140px 0;
+}
+.redes li.tw a:hover {
+  background-position: -140px -60px;
+}
+.redes li.in a {
+  width: 60px;
+  background-position: -204px 0;
+}
+.redes li.in a:hover {
+  background-position: -204px -60px;
+}
+.redes li.yt a {
+  width: 70px;
+  background-position: -270px 0;
+}
+.redes li.yt a:hover {
+  background-position: -270px -60px;
+}
+.redes li.wap a {
+  background-position: -484px 0;
+}
+.redes li.wap a:hover {
+  background-position: -484px -60px;
+}

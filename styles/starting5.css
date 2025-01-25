@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+}
+.starting5{
+    display: flex;
+    gap: 20px;
+}
+
+.starting5 div img{
+    width: 100%;
+}
+.starting5 div p{
+    text-align: left;
+    width: 90%;
+    margin: 0;
+    margin-bottom:10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+p b{
+    font-weight: 800;
+    margin-left: 3px;
+    color: #FDB927;
+}

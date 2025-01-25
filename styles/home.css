@@ -1,0 +1,64 @@
+.games{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.lastgame{
+    width: 45%;
+    background-color: #552583;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    color: #FDB927;
+}
+.nextgame{
+    width: 45%;
+    background-color: #FDB927;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    color: #552583;
+}
+.lakers{
+    width: 150px;
+}
+.wizards{
+    width: 150px;
+}
+.lastgame img,
+.nextgame img{
+    width: 60%;
+}
+.lastgame p,
+.nextgame p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+.versus{
+    display: flex;
+    justify-content: space-around;
+}
+.versus p{
+    padding: 5px;
+}
+.win{
+    color: #f0f8ff;
+    padding: 5px;
+    background-color: #4FBB2B;
+    border-radius: 50%;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fecha{
+    font-size: 16px;
+}
+.nextgame .versus p{
+    font-size: 16px;
+}
+.lastgame .middle{
+    margin-top: 10px;
+}
