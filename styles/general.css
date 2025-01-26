@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   height: fit-content;
-  background-color: #FDB927;
+  background-color: #fdb927;
   background-size: 400% 400%;
   animation: gradientAnimation 4s ease infinite;
   font-family: "Montserrat", serif;
@@ -11,7 +11,8 @@ body {
   cursor: default;
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   height: 100%;
   display: flex;
   flex-direction: column; /* Permite usar flexbox para alinear contenido */
@@ -40,8 +41,8 @@ h2 {
   font-size: 30px;
   color: #552583;
 }
-section{
-    text-align: center;
+section {
+  text-align: center;
   background-color: #f0f8ff;
   border-radius: 15px;
   color: #552583;
@@ -49,7 +50,7 @@ section{
   width: 65%;
   margin: 0 auto; /* Esto centra el elemento horizontalmente */
 }
-main{
+main {
   display: flex;
   flex-direction: column;
   gap: 20px;

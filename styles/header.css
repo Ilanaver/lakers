@@ -11,7 +11,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
-nav a img{
+nav a img {
   width: 69px;
   left: 5px;
   top: 0;
@@ -31,7 +31,6 @@ nav ul li {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-
 nav ul li a {
   text-decoration: none;
   color: #f0f8ff;
@@ -39,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-  background-color: #FDB927;
+  background-color: #fdb927;
   color: #f0f8ff;
   transform: scale(1.1);
 }
