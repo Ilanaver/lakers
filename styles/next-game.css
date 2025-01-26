@@ -1,0 +1,63 @@
+.next-game{
+    display: grid;
+    grid-template-columns: auto auto auto 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.next-game div img{
+    width: 150px;
+}
+.place{
+    display: flex;
+    align-items: center;
+    height: -webkit-fill-available;
+    border: none !important;
+    padding-left: 10px !important;
+
+}
+.info{
+    
+    text-align: left;
+    border: none !important;
+    padding-left: 0 !important;
+}
+.game-day{
+    margin: 0;
+    font-weight: 800;
+    font-size: 20px;
+}
+.game-day b{
+    font-size: 25px;
+    font-weight: 800;
+}
+.game-place{
+    font-size: 12px;
+    font-weight: 600;
+}
+.game-place b{
+    font-size: 14px;
+}
+.game-tv{
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
+.next-game div{
+    height: -webkit-fill-available;
+    align-items: center;
+    padding-left: 20px;
+    border-left: 2px #552583 solid;
+}
+.equipo{
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.equipo h3{
+    font-weight: 600;
+}
+.camiseta{
+    display: flex;
+    align-items: center;
+}
