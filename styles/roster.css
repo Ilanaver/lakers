@@ -6,7 +6,7 @@
 }
 .div-coach img,
 .div-player img{
-    width: 90%;
+    width: 100%;
 }
 .grid-roster {
     display: grid;
